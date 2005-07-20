@@ -21,8 +21,8 @@
 
 bin_PROGRAMS = pclcomp
 
-pclcomp_CFLAGS = $(DEP_CFLAGS)
-pclcomp_LDADD = $(DEP_LIBS)
+pclcomp_CFLAGS = $(PCLCOMP_CFLAGS)
+pclcomp_LDADD = $(PCLCOMP_LIBS)
 
 pclcomp_SOURCES =	\
         pclcomp.c
