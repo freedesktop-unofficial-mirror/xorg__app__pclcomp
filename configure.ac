@@ -22,7 +22,7 @@ dnl
 dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.57])
-AC_INIT(pclcomp,[7.0], [xorg@freedestkop.org],pclcomp)
+AC_INIT(pclcomp,[0.99.0], [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],pclcomp)
 AM_INIT_AUTOMAKE([dist-bzip2])
 AM_MAINTAINER_MODE
 
@@ -30,5 +30,7 @@ AM_CONFIG_HEADER(config.h)
 
 AC_PROG_CC
 AC_PROG_INSTALL
+
+XORG_RELEASE_VERSION
 
 AC_OUTPUT([Makefile])
