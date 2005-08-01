@@ -27,7 +27,7 @@ pclcomp_LDADD = $(PCLCOMP_LIBS)
 pclcomp_SOURCES =	\
         pclcomp.c
 
-dist_man_MANS = \
+dist_man1_MANS = \
         pclcomp.man
 
 EXTRA_DIST = printer.note
